@@ -47,7 +47,7 @@ function IndexHeader() {
               </div>
             </div>
             <h1 className="presentation-subtitle text-center">
-              Rent camping equipments. Hassle-free!
+            Rent camping & trekking equipment. Hassle-free!
             </h1>
           </Container>
         </div>

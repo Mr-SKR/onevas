@@ -95,6 +95,17 @@ function IndexNavbar() {
         >
           <Nav navbar>
             <NavItem>
+            <NavLink
+                data-placement="bottom"
+                href="/products"
+                title="Go to products page"
+                rel="noopener noreferrer"
+              >
+                <i />PRODUCTS
+                <p className="d-lg-none"></p>
+              </NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink
                 data-placement="bottom"
                 href="https://twitter.com/"
@@ -147,7 +158,8 @@ function IndexNavbar() {
               <NavLink
                 href="/#contact_us"
               >
-                <i className="fa fa-envelope-o" /> CONTACT US
+                <i className="fa fa-envelope-o" />
+                <p className="d-lg-none">Contact us</p>
               </NavLink>
             </NavItem>
           </Nav>

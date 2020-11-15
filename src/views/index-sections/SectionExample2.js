@@ -26,10 +26,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 function SectionExample2() {
   return (
     <>
-      <div className="section section-image"
-      style={{
-        backgroundImage: "url(" + require("assets/img/background-images/camp-background.webp") + ")"
-      }}>
+      <div className="section section-dark text-center">
         <Container>
           <Row className="example-page">
             <Col className="text-center" md="6">

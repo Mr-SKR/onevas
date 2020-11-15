@@ -90,6 +90,7 @@ function SectionCarousel() {
                   next={next}
                   previous={previous}
                   touch={true}
+                  autoPlay={true}
                 >
                   <CarouselIndicators
                     items={items}

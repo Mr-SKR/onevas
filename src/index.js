@@ -28,6 +28,7 @@ import "assets/scss/paper-kit.scss";
 import "assets/demo/demo.css";
 // pages
 import Index from "views/Index.js";
+import Products from "views/Products.js"
 // import NucleoIcons from "views/NucleoIcons.js";
 // import LandingPage from "views/examples/LandingPage.js";
 // import ProfilePage from "views/examples/ProfilePage.js";
@@ -54,6 +55,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
+    <Route exact path="/products" render={props => <Products {...props} />} />
       <Route exact path="/" render={props => <Index {...props} />} />
       {/*!
       <Route

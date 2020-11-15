@@ -21,16 +21,10 @@ import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 
-// core components
 
 function SectionExample1() {
   return (
-    <>
-      <div className="section section-image"
-      style={{
-        backgroundImage: "url(" + require("assets/img/background-images/camp-background-1.webp") + ")"
-      }}>
-      >
+      <div className="section section-dark text-center">
         <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
@@ -67,16 +61,49 @@ function SectionExample1() {
               <Button
                 className="btn-outline-neutral btn-round"
                 color="default"
-                href="https://traveltriangle.com/blog/guide-to-gandikota-fort-grand-canyon-of-india/"
+                href="https://www.budgetwayfarers.com/backpacking-to-gandikota/"
                 target="_blank"
               >
                 Gandikota
               </Button>
             </Col>
           </Row>
+          <Row className="example-page">
+            <Col className="text-center" md="6">
+              <img
+                alt="..."
+                className="img-rounded img-responsive"
+                src={require("assets/img/examples/gokarna.webp")}
+                style={{ width: "100%" }}
+              />
+              <Button
+                className="btn-outline-neutral btn-round"
+                color="default"
+                href="https://trekkerpedia.com/india/karnataka/gokarna-beach-camping-resorts-cafe-kudle-om-paradise-beach/#Gokarna_Beach_Camping"
+                target="_blank"
+              >
+               Gokarna
+              </Button>
+            </Col>
+            <Col className="text-center" md="6">
+              <img
+                alt="..."
+                className="img-rounded img-responsive"
+                src={require("assets/img/examples/tadiandamol.webp")}
+                style={{ width: "100%" }}
+              />
+              <Button
+                className="btn-outline-neutral btn-round"
+                color="default"
+                href="https://www.bangaloreascenders.org/2013/09/night-and-day-trek-to-kaurava-kunda.html"
+                target="_blank"
+              >
+               Kaurava Kunda
+              </Button>
+            </Col>
+          </Row>
         </Container>
       </div>
-    </>
   );
 }
 

@@ -27,13 +27,14 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 import FloatingButton from "components/FloatingButton.js"
 
 // index sections
-import SectionCarousel from "views/index-sections/SectionCarousel.js";
+// import SectionCarousel from "views/index-sections/SectionCarousel.js";
 //import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
 //import SectionDark from "views/index-sections/SectionDark.js";
 import SectionTypography from "views/index-sections/SectionTypography.js";
 import SectionExample1 from "views/index-sections/SectionExample1.js";
 import SectionExample2 from "views/index-sections/SectionExample2.js";
-import SectionNavigation from 'views/index-sections/SectionNavigation.js'
+import SimpleMap from "components/GoogleMap.js"
+
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -48,13 +49,14 @@ function Index() {
       <FloatingButton />
       <IndexNavbar />
       <IndexHeader />
+      
       <div className="main">
-        <SectionNavigation />
-        <SectionCarousel />
+        {/* <SectionCarousel /> */}
         <SectionExample1 />
         <SectionExample2 />
       </div>
       <SectionTypography />
+      <SimpleMap />
       <DemoFooter />
     </>
   );
