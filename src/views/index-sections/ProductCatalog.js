@@ -32,7 +32,7 @@ function ProductCatalog() {
                 href="https://www.decathlon.in/p/8357355/tents/camping-tent-arpenaz-freshblack-3-person"
                 target="_blank"
               >
-               Quechua 3 person tent - &#8377; 250/-*
+               <h1 style={{fontSize: "12px", textTransform: "uppercase", fontWeight: "600", textAlign: "center", verticalAlign: "middle", margin: "0"}}>Quechua 3 person tent - &#8377; 250/day *</h1>
               </Button>
             </Col>
             <Col className="text-center" md="4">
@@ -48,7 +48,7 @@ function ProductCatalog() {
                 href="https://www.decathlon.in/p/8357354/tents/camping-tent-arpenaz-freshblack-2-person"
                 target="_blank"
               >
-               Quechua 2 person tent - &#8377; 200/-*
+               <h1 style={{fontSize: "12px", textTransform: "uppercase", fontWeight: "600", textAlign: "center", verticalAlign: "middle", margin: "0"}}>Quechua 2 person tent - &#8377; 200/day *</h1>
               </Button>
             </Col>
             <Col className="text-center" md="4">
@@ -64,7 +64,7 @@ function ProductCatalog() {
                 href="https://www.decathlon.in/p/8513489/sleeping-bag-and-mattress/camping-sleeping-bag-arpenaz-10c"
                 target="_blank"
               >
-               Quechua Sleeping bag - &#8377; 60/-*
+               <h1 style={{fontSize: "12px", textTransform: "uppercase", fontWeight: "600", textAlign: "center", verticalAlign: "middle", margin: "0"}}>Quechua Sleeping bag - &#8377; 60/day *</h1>
               </Button>
             </Col>
             <Col className="text-center" md="4">
@@ -80,7 +80,7 @@ function ProductCatalog() {
                 href="https://www.decathlon.in/p/8558891/sleeping-bag-and-mattress/camping-sleeping-bag-arpenaz-15"
                 target="_blank"
               >
-               Quechua Sleeping bag - &#8377; 50/-*
+               <h1 style={{fontSize: "12px", textTransform: "uppercase", fontWeight: "600", textAlign: "center", verticalAlign: "middle", margin: "0"}}>Quechua Sleeping bag - &#8377; 50/day *</h1>
               </Button>
             </Col>
             <Col className="text-center" md="4">
@@ -96,7 +96,7 @@ function ProductCatalog() {
                 href="https://www.decathlon.in/p/8055369/sleeping-bag-and-mattress/inflatable-camping-pillow-air-basic"
                 target="_blank"
               >
-               Quechua Air Pillow - &#8377; 15/-*
+               <h1 style={{fontSize: "12px", textTransform: "uppercase", fontWeight: "600", textAlign: "center", verticalAlign: "middle", margin: "0"}}>Quechua Air Pillow - &#8377; 15/day *</h1>
               </Button>
             </Col>
             <Col className="text-center" md="4">
@@ -112,7 +112,7 @@ function ProductCatalog() {
                 href="#"
                 target="_blank"
               >
-               Sleeping mattress - Coming soon
+               <h1 style={{fontSize: "12px", textTransform: "uppercase", fontWeight: "600", textAlign: "center", verticalAlign: "middle", margin: "0"}}>Sleeping mattress - Coming soon</h1>
               </Button>
             </Col>
           </Row>

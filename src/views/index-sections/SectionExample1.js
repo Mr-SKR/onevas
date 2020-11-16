@@ -25,6 +25,25 @@ import { Button, Container, Row, Col } from "reactstrap";
 function SectionExample1() {
   return (
       <div className="section section-dark text-center">
+        <Container className="pt-5 pb-5">
+          <Row>
+            <Col className="ml-auto mr-auto text-center" md="8">
+              <div className="pb-3">
+              <h2 className="description" style={{fontSize: "15px", lineHeight: "1.5em", marginBottom: "5px"}}>
+                We rent clean & hyguine equipment including camping tents, sleeping bags, inflatable pillows, sleeping mattress etc., required for camping and trekking
+              </h2>
+              </div>
+              <Button
+                className="btn-outline-neutral btn-round"
+                color="default"
+                href="/products"
+                target="_blank"
+              >
+               Click here to view our products
+              </Button>
+            </Col>
+          </Row>
+        </Container>
         <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
@@ -89,7 +108,7 @@ function SectionExample1() {
               <img
                 alt="..."
                 className="img-rounded img-responsive"
-                src={require("assets/img/examples/tadiandamol.webp")}
+                src={require("assets/img/examples/kaurava-kunda.webp")}
                 style={{ width: "100%" }}
               />
               <Button
@@ -102,6 +121,7 @@ function SectionExample1() {
               </Button>
             </Col>
           </Row>
+          
         </Container>
       </div>
   );

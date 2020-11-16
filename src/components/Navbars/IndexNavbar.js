@@ -132,7 +132,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/onevasindia/"
+                href="https://www.instagram.com/onevas.in/"
                 target="_blank"
                 title="Follow us on Instagram"
                 rel="noopener noreferrer"
@@ -141,19 +141,6 @@ function IndexNavbar() {
                 <p className="d-lg-none">Instagram</p>
               </NavLink>
             </NavItem>
-            {/*!
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial/paper-kit-react?ref=creativetim"
-                target="_blank"
-                title="Star on GitHub"
-              >
-                <i className="fa fa-github" />
-                <p className="d-lg-none">GitHub</p>
-              </NavLink>
-            </NavItem>
-            */}
             <NavItem>
               <NavLink
                 href="/#contact_us"

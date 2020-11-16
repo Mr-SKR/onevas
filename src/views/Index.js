@@ -32,7 +32,6 @@ import FloatingButton from "components/FloatingButton.js"
 //import SectionDark from "views/index-sections/SectionDark.js";
 import SectionTypography from "views/index-sections/SectionTypography.js";
 import SectionExample1 from "views/index-sections/SectionExample1.js";
-import SectionExample2 from "views/index-sections/SectionExample2.js";
 import SimpleMap from "components/GoogleMap.js"
 
 
@@ -53,7 +52,6 @@ function Index() {
       <div className="main">
         {/* <SectionCarousel /> */}
         <SectionExample1 />
-        <SectionExample2 />
       </div>
       <SectionTypography />
       <SimpleMap />

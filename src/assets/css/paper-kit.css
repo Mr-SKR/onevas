@@ -6459,4 +6459,8 @@ td.rdtYear:hover {
   border-width: 0 .4rem .4rem .4rem;
   border-bottom-color: #fff; }
 
+.productHeading {
+  font-size: 50% !important;
+ }
+
 /*# sourceMappingURL=paper-kit.css.map */

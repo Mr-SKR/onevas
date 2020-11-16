@@ -40,8 +40,9 @@ function DemoFooter() {
           </nav>
           <div className="credits ml-auto">
             <span className="copyright">
-              © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> for Bengaluru
+              For the {" "}
+              <i className="fa fa-heart heart" />
+              of Karnataka, Please do not litter
             </span>
           </div>
         </Row>

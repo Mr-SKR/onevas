@@ -39,7 +39,7 @@ function SectionTypography() {
           <Container>
             <h2 className="title">Let's talk about us</h2>
             <h3 className="motto text-center">
-              Our motto is to provide  quality, hygiene and nature-friendly camping equipments
+              Our motto is to provide quality, hygiene and nature-friendly camping equipments
             </h3>
             <Row>
               <Col md="4">
@@ -47,25 +47,24 @@ function SectionTypography() {
                   <div className="card-avatar">
                     <img
                       alt="..."
-                      src={require("assets/img/faces/face_placeholder_3.webp")}
+                      src={require("assets/img/founders/arunraj-kodoth.webp")}
                     />
                   </div>
                   <CardBody>
                     <div className="author">
                       <CardTitle tag="h4">ArunRaj Kodoth</CardTitle>
                       <h6 className="card-category">Co-Founder</h6>
+                      <p style={{color: "white"}}>Order & Delivery management</p>
                     </div>
                     <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
-                      the money that you want without becoming very good at it.
+                      I am a computer science graduate and an environmentalist contributing to make this world a better place to live
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="https://twitter.com/"
+                      href="https://twitter.com/arunraj_kodoth"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -83,7 +82,7 @@ function SectionTypography() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="https://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/arunraj-kodoth-716a71153/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -97,26 +96,24 @@ function SectionTypography() {
                   <div className="card-avatar">
                     <img
                       alt="..."
-                      src={require("assets/img/faces/face_placeholder_2.webp")}
+                      src={require("assets/img/founders/moniesh-ram.webp")}
                     />
                   </div>
                   <CardBody>
                     <div className="author">
                       <CardTitle tag="h4">Moniesh Ram</CardTitle>
                       <h6 className="card-category">Co-Founder</h6>
+                      <p style={{color: "white"}}>Design & Marketing</p>
                     </div>
                     <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      others. No one can whistle a symphony. It takes an
-                      orchestra to play it.
+                      I am an information science graduate and a film critic by hobby
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="https://twitter.com/"
+                      href="https://twitter.com/moniesh_ram"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -125,7 +122,7 @@ function SectionTypography() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="https://www.instagram.com/"
+                      href="https://www.instagram.com/__abhay__/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -134,7 +131,7 @@ function SectionTypography() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="https://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/moniesh-ram/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -148,26 +145,24 @@ function SectionTypography() {
                   <div className="card-avatar">
                     <img
                       alt="..."
-                      src={require("assets/img/faces/face_placeholder_3.webp")}
+                      src={require("assets/img/founders/suresh-reddy.webp")}
                     />
                   </div>
                   <CardBody>
                     <div className="author">
                       <CardTitle tag="h4">Suresh Reddy</CardTitle>
                       <h6 className="card-category">Co-Founder</h6>
+                      <p style={{color: "white"}}>Technology</p>
                     </div>
                     <p className="card-description text-center">
-                      The strength of the team is each individual member. The
-                      strength of each member is the team. If you can laugh
-                      together, you can work together, silence isn’t golden,
-                      it’s deadly.
+                      I am an information science engineer, a techie who understands binary language to bridge machines and humans
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="https://twitter.com/"
+                      href="https://twitter.com/Suresh_K_Reddy"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -176,7 +171,7 @@ function SectionTypography() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="https://www.instagram.com/"
+                      href="https://www.instagram.com/suresh.kumar.reddy/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -185,7 +180,7 @@ function SectionTypography() {
                     <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
-                      href="https://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/suresh-kumar-reddy/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

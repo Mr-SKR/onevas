@@ -42,7 +42,7 @@ function ProductNavbar() {
             href="/"
             title="Onevas"
           >
-            <div style={{color: "black"}}>HOME</div>
+            <div style={{color: "black", textShadow: "1px 1px white"}}>HOME</div>
           </NavbarBrand>
         </div>
       </Container>

@@ -6,13 +6,13 @@ const items = [
     src: require("assets/img/camping/product-carousel-1.webp"),
     altText: 'Camping Tents',
     header: 'Camping Tents',
-    caption: 'From \u20B9 200/- onwards*'
+    caption: 'Starting from \u20B9 200/day'
   },
   {
     src: require("assets/img/camping/product-carousel-2.webp"),
     altText: 'Sleeping Bags',
     header: 'Sleeping Bags',
-    caption: 'From \u20B9 50/- onwards*'
+    caption: 'Starting from \u20B9 50/day'
   },
   {
     src: require("assets/img/camping/product-carousel-3.webp"),

@@ -10,8 +10,7 @@ class SimpleMap extends Component {
         <div className="mapWrapper">
         <iframe
             title="onevas"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.953469910588!2d77.7456741!3d12.9405714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3cc888d87b4a578!2sCALKIN!5e0!3m2!1sen!2sin!4v1605437872262!5m2!1sen!2sin"
-            
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d972.1231448251406!2d77.74535100543474!3d12.940301307932936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0d06d623d157%3A0x2a992864bfb0c99c!2sOnevas!5e0!3m2!1sen!2sin!4v1605518584351!5m2!1sen!2sin"
         />
         </div>
         
